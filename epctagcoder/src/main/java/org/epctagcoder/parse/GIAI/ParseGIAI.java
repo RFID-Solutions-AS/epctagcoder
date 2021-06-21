@@ -4,7 +4,6 @@ import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.epctagcoder.exception.EPCParseException;
 import org.epctagcoder.option.PrefixLength;
 import org.epctagcoder.option.TableItem;
 import org.epctagcoder.option.GIAI.GIAIFilterValue;
@@ -28,7 +27,7 @@ public class ParseGIAI {
 	private TableItem tableItem;
 	private int remainder;
 	
-    public static ChoiceStep Builder() throws EPCParseException {
+    public static ChoiceStep Builder() throws Exception {
         return new Steps();
     }
 
@@ -79,7 +78,7 @@ public class ParseGIAI {
 				prefixLength = PrefixLength.forCode(tableItem.getL());				
 				
 			} catch (Exception e) {
-				throw new EPCParseException("EPC is invalid");
+				throw new IllegalArgumentException("EPC is invalid");
 			}
 			
 		
