@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.GSRNP;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +11,7 @@ import org.epctagcoder.option.GSRNP.GSRNPTagSize;
 import org.epctagcoder.option.GSRNP.partitionTable.GSRNPPartitionTableList;
 import org.epctagcoder.result.GSRNP;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 public class ParseGSRNP {
 	private static final Integer RESERVED = 0; // 24 zero bits

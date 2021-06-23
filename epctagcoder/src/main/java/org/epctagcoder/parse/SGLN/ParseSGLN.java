@@ -9,9 +9,9 @@ import org.epctagcoder.option.TableItem;
 import org.epctagcoder.result.SGLN;
 import org.epctagcoder.util.Converter;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.epctagcoder.util.Optional;
 
 public class ParseSGLN {
 

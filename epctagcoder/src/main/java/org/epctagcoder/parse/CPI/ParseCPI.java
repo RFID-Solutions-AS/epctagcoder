@@ -1,7 +1,6 @@
 package org.epctagcoder.parse.CPI;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -14,6 +13,7 @@ import org.epctagcoder.option.CPI.CPITagSize;
 import org.epctagcoder.option.CPI.partitionTable.CPIPartitionTableList;
 import org.epctagcoder.result.CPI;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 
 public class ParseCPI {

@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.GSRN;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.epctagcoder.option.PrefixLength;
@@ -11,6 +10,7 @@ import org.epctagcoder.option.GSRN.GSRNTagSize;
 import org.epctagcoder.option.GSRN.partitionTable.GSRNPartitionTableList;
 import org.epctagcoder.result.GSRN;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 public class ParseGSRN {
 	private static final Integer RESERVED = 0; // 24 zero bits

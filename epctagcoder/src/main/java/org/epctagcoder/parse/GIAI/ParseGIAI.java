@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.GIAI;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +11,7 @@ import org.epctagcoder.option.GIAI.GIAITagSize;
 import org.epctagcoder.option.GIAI.partitionTable.GIAIPartitionTableList;
 import org.epctagcoder.result.GIAI;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 
 public class ParseGIAI {

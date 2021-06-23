@@ -2,10 +2,8 @@
 
 package org.epctagcoder.parse.SSCC;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 import org.epctagcoder.option.PrefixLength;
 import org.epctagcoder.option.TableItem;
@@ -16,6 +14,7 @@ import org.epctagcoder.option.SSCC.SSCCTagSize;
 import org.epctagcoder.option.SSCC.partitionTable.SSCCPartitionTableList;
 import org.epctagcoder.result.SSCC;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 public class ParseSSCC {
 	private static final Integer RESERVED = 0; // 24 zero bits

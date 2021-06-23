@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.SGTIN;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,6 +12,7 @@ import org.epctagcoder.option.SGTIN.SGTINTagSize;
 import org.epctagcoder.option.SGTIN.partitionTable.SGTINPartitionTableList;
 import org.epctagcoder.result.SGTIN;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 
 public class ParseSGTIN {

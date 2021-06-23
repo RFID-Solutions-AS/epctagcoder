@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.GDTI;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +11,7 @@ import org.epctagcoder.option.GDTI.GDTITagSize;
 import org.epctagcoder.option.GDTI.partitionTable.GDTIPartitionTableList;
 import org.epctagcoder.result.GDTI;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 
 public class ParseGDTI {

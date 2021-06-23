@@ -1,6 +1,5 @@
 package org.epctagcoder.parse.GRAI;
 
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +11,7 @@ import org.epctagcoder.option.GRAI.GRAITagSize;
 import org.epctagcoder.option.GRAI.partitionTable.GRAIPartitionTableList;
 import org.epctagcoder.result.GRAI;
 import org.epctagcoder.util.Converter;
+import org.epctagcoder.util.Optional;
 
 
 public class ParseGRAI {
