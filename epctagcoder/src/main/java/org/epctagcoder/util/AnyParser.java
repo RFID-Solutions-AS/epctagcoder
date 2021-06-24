@@ -71,6 +71,10 @@ public class AnyParser {
     }
 
     public static void main(String[] args) {
-
+        try {
+            AnyParser.parseEPCToPureIdentity("3415AF9D6000000DF848A862");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

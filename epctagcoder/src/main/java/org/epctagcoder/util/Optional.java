@@ -13,7 +13,7 @@ public class Optional<T> {
     }
 
     public boolean isPresent() {
-        return object == null;
+        return object != null;
     }
 
     public static Optional ofNullable(Object nullable) {
